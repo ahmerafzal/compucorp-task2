@@ -1,0 +1,68 @@
+.bg { background:#fff }
+.bg.darkpink { background-color:#d83454 }
+.bg.gray{ background-color:#f1f2f2 }
+.team-info { font-size:28px; color:#fff; margin:83px auto 44px auto; max-width:450px }
+.logo img { width:260px; margin-top:170px }
+.arrow-down { position:relative; border:2px solid #fff; height:47px; width:47px; display:block; border-radius:50%; margin:44px auto 0; cursor:pointer }
+.arrow-down.shadow { background:#d83454; box-shadow:0 3px 5px #ddd; text-align:center }
+.arrow-down i { color:#fff; font-size:26px; line-height:47px }
+.arrow-down.black { border:2px solid #414042; text-align:center }
+.arrow-down.black i { color:#414042 }
+.art { margin:58px 0 0 0 }
+.art img { width:450px }
+.art-para { margin:76px 0 46px 0 }
+.art-para p { color:#414042; font-size:28px }
+.art-para p span { color:#d83454 }
+.services,.clients,.find-us,.contact { padding:58px 0 44px 0 }
+h2 { margin:0; font-size:60px; text-align:center }
+.services .service { margin:74px 0 60px 0 }
+.services .service .ico { height:170px; width:170px; border-radius:50%; background:#d83454; display:block; margin:0 auto }
+.services .service .ico i { background:left no-repeat; height:170px; width:75px; display:block; background-size:contain; margin:auto }
+.services .service .ico.webdevelopment i { background-image:url(../img/ico-webdevelopment.png) }
+.services .service .ico.design i { background-image:url(../img/ico-design.png) }
+.services .service .ico.branding i { background-image:url(../img/ico-branding.png) }
+.services .service .ico.uxresearch i { background-image:url(../img/ico-uxresearch.png) }
+.services .service strong { font-weight:300; font-size:20px; margin-top:58px; display:block }
+.clients-slide { position:relative }
+.clients-slide .owl-carousel { width:90%; margin:140px auto }
+.clients-slide .owl-carousel div { text-align:center }
+.clients-slide .owl-carousel img { width:70% }
+.clients-slide .customNavigation .btn { position:absolute; height:50px; width:50px; display:block; line-height:50px; margin-top:-25px }
+.clients-slide .customNavigation .btn i { font-size:20px; color:#5e6b6e }
+.clients-slide .customNavigation .btn.prev { top:50%; left:0px }
+.clients-slide .customNavigation .btn.next { top:50%; right:0px }
+.contact-form { width:500px; margin:30px auto }
+.contact-form .form-control { border:2px solid #ccc; font-size:20px; line-height:50px; height:50px }
+.contact-form .form-control:focus { box-shadow:none; border-color:#d83454 }
+.contact-form .form-control.textarea { height:150px !important }
+.contact .phone { font-size:20px }
+.btn-primary { background:#d83454; color:#fff; font-size:20px; border-color:#d83454; padding:15px 0 }
+.btn-primary:hover { background:#333; border-color:#333 }
+.find-us .map { margin:55px 0; position:relative  }
+.find-us .map .shade { box-shadow:inset 0 0 10px #bbb; height:100%; width:100%; position:absolute; top:0px; left:0px }
+@media (max-width: 900px) {
+	.logo img { margin-top:155px }
+	.art img { width:90% }
+	.contact-form { width:90% }
+	.services { padding:38px 0 44px 0 }
+	.services .service { margin:34px 0 0 0 }
+	.services .service .ico { height:70px; width:70px; display:inline-block; margin:0 }
+	.services .service .ico i { background:left no-repeat; height:70px; width:45px; display:block; background-size:contain; margin:auto }
+	.services .service .col-md-3 { margin-bottom:10px }
+	.services .service .text-center { text-align:left }
+	.services .service strong { font-weight:300; font-size:28px; margin-top:25px; display:inline-block; position:absolute; top:0px; left:100px }
+	.services .arrow-down { margin-top:20px }
+	.clients-slide .customNavigation { display:none }
+}
+@media (max-width: 480px) {
+	.logo img { margin-top:75px }
+	.art { margin:28px 0 0 0 }
+	.art-para { margin:56px 0 46px 0 }
+	.services, .find-us, .contact { padding:18px 0 24px 0 }
+	.services .service { margin:14px 0 0 0 }
+	.services .arrow-down { margin-top:0px }
+	h2 { font-size:40px }
+	.clients-slide .owl-carousel { margin:120px auto }
+	.find-us .map { margin:25px 0; }
+	.find-us .map iframe { height:280px }
+}
